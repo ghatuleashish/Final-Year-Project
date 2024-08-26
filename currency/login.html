@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="/action_page.php">
+        <div class="card">
+            <div class="container">
+                <img src="/images/new logo.png" height="100" width="100">
+                <h1>Login</h1>
+                <label>Email:</label>
+                <input id="value" type="email" placeholder="Enter mail"><br>
+                <label>password:</label>
+                <input type="password" id="value" name="psw" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" placeholder="Enter password" required>
+                <br>
+                <button>Login</button>
+
+            </div>
+            <p>Don't have an account?
+                <a href="/signup.html" style="text-decoration: none;">
+                      Create an account
+                </a>
+            </p>
+        </div>
+    </form>
+
+</body>
+
+</html>

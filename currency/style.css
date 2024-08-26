@@ -1,0 +1,78 @@
+body {
+    background-image: url('/images/back3-converted.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.logo {
+    display: flex;
+    contain: size;
+    position: relative;
+    background-color: rgba(17, 21, 23, 0.87);
+    width: 100%;
+    height: 140px;
+    color: white;
+}
+
+img {
+    padding: 20px;
+}
+
+h1 {
+    align-self: center;
+    padding: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 45px;
+    font-weight: 1200;
+}
+
+
+/*
+
+
+    */
+
+h3 {
+    color: aliceblue;
+    font-size: xx-large;
+    font-style: italic;
+    text-align: center;
+    align-items: center;
+}
+
+.card {
+    margin: 11rem;
+    padding: 4rem;
+    text-align: center;
+    border: 3px solid rgb(18, 18, 18);
+    border-radius: 2rem;
+    background-color: rgba(24, 23, 23, 0.945);
+    box-shadow: 5rem, whitesmoke;
+}
+
+button {
+    margin-top: 3rem;
+    align-items: center;
+    text-align: center;
+    display: inline-block;
+    width: 25%;
+    cursor: pointer;
+    padding: 1rem;
+    font-size: 1rem;
+    border-radius: 2rem;
+    margin: 2rem;
+}
+
+button:hover {
+    background-color: blueviolet;
+    color: whitesmoke;
+}
+
+footer {
+    contain: size;
+    position: relative;
+    background-color: rgba(17, 21, 23, 0.87);
+    width: 100%;
+    height: 140px;
+    color: white;
+}
